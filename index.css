@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body{
+    font-family: 'Lato', "Helvetica Neue", Arial, sans-serif;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    text-align: center;
+    height: auto;
+    color: green;
+}
+
+h3{
+    margin-top: 5vh;
+}
+
+main{
+    padding-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: calc(90%-30px);
+    margin: 0 auto;
+}
+
+#one,#two,#three,#four{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+    padding: 3%;
+    margin: 1%;
+    border : 5px double green;
+    text-transform: uppercase;
+}
+
+input{
+    color: green;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 30%;
+    height: 15%;
+    padding: 5%;
+    margin: 5%;
+}
+
+#counter, #increase, #decrease, #restart{
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5% ;
+    margin: 0.5% ;
+    width: auto;
+    height: auto;
+    border : 5px double greenyellow;
+    text-transform: uppercase;
+}
+@media screen and (min-width:800px){
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:row;
+    }
+}
